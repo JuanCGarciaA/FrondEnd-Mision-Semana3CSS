@@ -1,0 +1,694 @@
+@font-face {
+    font-family: Futura;
+    src: url(./Futura.ttc);
+}
+.header{
+    width: 100%;
+    height: 110px;
+    background-color: rgba(255,255,255,0.8) ;
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+footer {
+    background-color: #32B6B2;
+    padding: 10px;
+    font-size: 18px;
+    font-family:sans-serif;
+    color: white;
+}
+.a1{
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.c1{
+    width: 38%;
+    height: 70px;
+    font: verdana;
+    color:#2747c5;
+}
+.c2{
+    width: 150px;
+    height: 70px;
+    font-family: futura;
+    color:#6C6C71;
+}
+.c5{
+    width: 150px;
+    height: 70px;
+    font: verdana;
+    font-size: 20px;
+    background-color: #2747c5;
+    color:white;
+    border-width:8px;
+    border-radius:8px;
+    border-color:black;
+}
+.d1{
+    float: left;
+    position: static;
+    top:0px; 
+    width: 50%;
+    background-image: url("4850037.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 920px;
+}
+.d2{
+    float: right;
+    position:static;
+    top: 0px; 
+    width: 50%;
+    background-image: url("coronavirus-vaccine-in-woman-s-arm.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 920px;
+}
+.d3{
+    width: 450px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 120px;
+}
+h2{
+    font: verdana;
+    font-size: 55px;
+    color: #1f3e72;
+}
+.d4{
+    width: 450px;
+    height: 100px;
+    position: absolute;
+    top: 400px;
+    left: 120px;
+    color:#6C6C71;
+    font-family: futura;
+    font-size: 22px;
+    line-height : 37px;
+}
+.d5{
+    width: 430px;
+    height: 100px;
+    position: absolute;
+    top: 550px;
+    left: 120px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: contain;
+}
+.d6{
+    width: 430px;
+    height: 100px;
+    position: absolute;
+    top: 700px;
+    left: 120px;
+    font: verdana;
+    font-size: 24px;
+    color: #1f3e72;
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: contain;
+}
+.d7{
+    width: 67%;
+    height: 110px;
+    background-color: rgba(255,255,255,0.8) ;
+    padding: 10px;
+    font-size: 23px;
+    font-family: futura;
+    color: #6C6C71;
+    position: absolute;
+    border-radius:12px;
+    top:770px;
+    left: 120px;
+}
+.d8{
+    height: 110px;
+    padding: 10px;
+    position: absolute;
+    top:15px;
+    left: 40px;
+}
+.d9{
+    font-family: futura;
+    font-size: 25px;
+    width: 200px ;
+    color: #1f3e72;
+    border: none;
+    background-color: transparent;
+
+}
+.d10{
+    height: 110px;
+    padding: 10px;
+    position: absolute;
+    top:15px;
+    left: 280px;
+}
+.d11{
+    font-family: futura;
+    font-size: 25px;
+    width: 215px ;
+    color: #1f3e72;
+    border: none;
+    background-color: transparent;
+}
+::placeholder{
+    color: #1f3e72;
+}
+.d12{
+    height: 110px;
+    padding: 10px;
+    position: absolute;
+    top:15px;
+    left: 510px;
+}
+.d13{
+    font-family: futura;
+    font-size: 25px;
+    width: 200px ;
+    color: #1f3e72;
+    border: none;
+    background-color: transparent;
+}
+.d14{
+    font-family: futura;
+    font-size: 30px;
+    height: 60px;
+    width: 200px ;
+    color: white;
+    border: none;
+    background-color:#1f3e72;
+    position: absolute;
+    top:35px;
+    left:750px;
+    border-radius: 10px;
+}
+.d15{
+    width: 100%;
+    height: 260px;
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    top:930px;
+    left: 0px;
+}
+.d16{
+    width: 290px;
+    height: 100px;
+    padding: 10px;
+    position: absolute;
+    top:65px;
+    left: 100px;
+    opacity: 0.5;
+    filter:grayscale(1);
+}
+.d17{
+    width: 270px;
+    height: 40px;
+    padding: 10px;
+    position: absolute;
+    top:110px;
+    left: 460px;
+    opacity: 0.5;
+    filter:grayscale(1);
+}
+.d18{
+    width: 250px;
+    height: 130px;
+    padding: 10px;
+    position: absolute;
+    top:60px;
+    left: 820px;
+    opacity: 0.5;
+    filter:grayscale(1);
+}
+.d19{
+    width: 250px;
+    height: 70px;
+    padding: 10px;
+    position: absolute;
+    top:90px;
+    left: 1150px;
+    opacity: 0.5;
+    filter:grayscale(1);
+}
+.d16:hover {
+    opacity: 1.0;
+    filter: none;
+}
+.d17:hover {
+    opacity: 1.0;
+    filter: none;
+}
+.d18:hover {
+    opacity: 1.0;
+    filter: none;
+}
+.d19:hover {
+    opacity: 1.0;
+    filter: none;
+}
+.d20{
+    width: 100%;
+    height: 680px;
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+    position: absolute;
+    top:1210px;
+    left: 0px;
+}
+.d21{
+    font: verdana;
+    font-size: 40px;
+    color: #1f3e72;
+    width: 450px;
+    height: 100px;
+    position: absolute;
+    top: 22px;
+    left: 120px;
+}
+.d22{
+    width: 650px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    color:#6C6C71;
+    font-family: futura;
+    font-size: 22px;
+    line-height : 37px;
+}
+.d23{
+    width: 290px;
+    height: 350px;
+    position: absolute;
+    top: 250px;
+    left: 120px;
+    color: #1f3e72; 
+    background-color: white;
+    font-family: futura;
+    font-size: 50px;
+    line-height : 37px;
+    border-radius: 10px;
+    border-color: #C9CACC;
+    border-style: solid;
+    border-width: medium;
+}
+.d24{
+    width: 290px;
+    height: 350px;
+    position: absolute;
+    top: 250px;
+    left: 440px;
+    color:#1f3e72;
+    background-color: white;
+    font-family: futura;
+    font-size: 50px;
+    line-height : 37px;
+    border-radius: 10px;
+    border-color: #C9CACC;
+    border-style: solid;
+    border-width: medium;
+}
+.d25{
+    width: 290px;
+    height: 350px;
+    position: absolute;
+    top: 250px;
+    left: 760px;
+    color:#1f3e72;
+    background-color: white;
+    font-family: futura;
+    font-size: 50px;
+    line-height : 37px;
+    border-radius: 10px;
+    border-color: #C9CACC;
+    border-style: solid;
+    border-width: medium;
+}
+.d26{
+    width: 290px;
+    height: 350px;
+    position: absolute;
+    top: 250px;
+    left: 1080px;
+    color:#1f3e72;
+    background-color:white;
+    font-family: futura;
+    font-size: 50px;
+    line-height : 37px;
+    border-radius: 10px;
+    border-color: #C9CACC;
+    border-style: solid;
+    border-width: medium;
+}
+.d27{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.d28{
+    position: absolute;
+    top: 75px;
+    left: 30px;
+    font-size: 25px;
+    line-height : 30px;
+}
+.d29{
+    position: absolute;
+    top: 160px;
+    left: 30px;
+    color:#6C6C71;
+    font-size: 18px;
+    line-height : 25px; 
+}
+.d23:hover{
+    box-shadow: 5px 5px 5px #D5D7DC;
+}
+.d24:hover{
+    box-shadow: 5px 5px 5px #D5D7DC;
+}
+.d25:hover{
+    box-shadow: 5px 5px 5px #D5D7DC;
+}
+.d26:hover{
+    box-shadow: 5px 5px 5px #D5D7DC;
+}
+.d31{
+    float: left;
+    position:absolute;
+    top: 1910px; 
+    width: 50%;
+    background-image: url("smiley-woman-showing-sticker-on-arm-after-getting-vaccine.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 1000px;
+}
+.d30{
+    position:absolute;
+    top:1910px; 
+    left:730px;
+    width: 50%;
+    background-image: url("4850037.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 1000px;
+}
+.d32{
+    font: verdana;
+    font-size: 40px;
+    color: #1f3e72;
+    width: 450px;
+    height: 100px;
+    position: absolute;
+    top: 22px;
+    left: 65px;
+}
+.d33{
+    width: 550px;
+    height: 200px;
+    position: absolute;
+    top: 135px;
+    left: 65px;
+    color:#6C6C71;
+    font-family: futura;
+    font-size: 22px;
+    line-height : 37px;
+}
+.d34{
+    width: 570px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    left: 65px;
+}
+.accordion {
+    background-color: white;
+    color: #1f3e72;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border:rgba(201, 202, 204, .2);
+    font-family: futura;
+    text-align: left;
+    outline: none;
+    font-size: 19px;
+    transition: 0.4s;
+    border-style: solid;
+    border-width: 2px;
+}
+.accordion.active, .accordion:hover {
+    background-color: rgba(201, 202, 204, 0.2);;
+}
+.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #6C6C71;
+    float: right;
+    margin-left: 5px;
+    }
+.accordion.active:after {
+    content: "\2796";
+}
+.panel {
+    padding: 0 18px;
+    background-color: transparent;
+    max-height: 0;
+    font-family: futura;
+    text-align: left;
+    color:#6C6C71 ;
+    font-size: 14px;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+.panel.show {
+    opacity: 1;
+    max-height: 100px;
+}
+.d35{
+    float: left;
+    position:absolute;
+    top: 2910px; 
+    width: 50%;
+    background-image: url("4850037.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 1000px;
+}
+.d36{
+    position:absolute;
+    top:2910px; 
+    left:730px;
+    width: 50%;
+    background-image: url("Doctor-using-smartphone.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    align:center;
+    height: 1000px;
+}
+.d37{
+    font: verdana;
+    font-size: 40px;
+    color: #1f3e72;
+    width: 450px;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    left: 120px;
+}
+.d38{
+    width: 550px;
+    height: 100px;
+    position: absolute;
+    top: 260px;
+    left: 120px;
+    color:#6C6C71;
+    font-family: futura;
+    font-size: 22px;
+    line-height : 37px;
+}
+.d39{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 450px;
+    left: 120px;
+    color: #1f3e72; 
+    background-color: white;
+    font-family: futura;
+    font-size: 35px;
+    line-height : 37px;
+    border-radius: 10px;
+    border-color: #C9CACC;
+    border-style: solid;
+    border-width: medium;
+}
+.d40{
+    position: absolute;
+    top: 0px;
+    left: 75px;
+    font-size: 30px;
+    line-height : 30px;
+}
+.d41{
+    position: absolute;
+    top: 50px;
+    left: 74px;
+    color:#6C6C71;
+    font-size: 15px;
+    line-height : 25px; 
+}
+.d42{
+    font-family: futura;
+    font-size: 22px;
+    height: 50px;
+    width: 150px ;
+    color: #3368DA;
+    border: none;
+    background-color:#DCFFFD;
+    position: absolute;
+    top:120px;
+    left:30px;
+    border-radius: 10px;
+}
+.d42:hover {
+    background-color: #3368DA;
+    color: white;
+}
+.d43{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 450px;
+    left: 420px;
+    color: #1f3e72; 
+    background-color: white;
+    font-family: futura;
+    font-size: 35px;
+    line-height : 37px;
+    border-radius: 10px;
+    border-color: #C9CACC;
+    border-style: solid;
+    border-width: medium;
+}
+.d44{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 700px;
+    left: 120px;
+    color: #1f3e72; 
+    background-color: white;
+    font-family: futura;
+    font-size: 35px;
+    line-height : 37px;
+    border-radius: 10px;
+    border-color: #C9CACC;
+    border-style: solid;
+    border-width: medium;
+}
+.d45{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 700px;
+    left: 420px;
+    color: #1f3e72; 
+    background-color: white;
+    font-family: futura;
+    font-size: 35px;
+    line-height : 37px;
+    border-radius: 10px;
+    border-color: #C9CACC;
+    border-style: solid;
+    border-width: medium;
+}
+.d46{
+    position: absolute;
+    top: -15px;
+    left: 75px;
+    font-size: 30px;
+    line-height : 30px;
+}
+.d47{
+    position: absolute;
+    top: 60px;
+    left: 74px;
+    color:#6C6C71;
+    font-size: 15px;
+    line-height : 25px; 
+}
+.d48{
+    font-family: futura;
+    font-size: 22px;
+    height: 50px;
+    width: 170px ;
+    color: #3368DA;
+    border: none;
+    background-color:#DCFFFD;
+    position: absolute;
+    top:120px;
+    left:20px;
+    border-radius: 10px;
+}
+.d48:hover {
+    background-color: #3368DA;
+    color: white;
+}
+.d49{
+    float: left;
+    position:absolute;
+    background-color: rgba(51, 104, 218, 0.3);
+    top: 3900px; 
+    width: 100%;
+    height: 400px;
+}
+.d50{
+    position: absolute;
+    top: 75px;
+    left: 60px;
+    font-size: 35px;
+    line-height : 30px;
+    font: verdana;
+    color:#2747c5;
+}
+.d51{
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    color:#6C6C71;
+    font-size: 18px;
+    width: 250px;
+    line-height : 25px;  
+}
+.d52{
+    position: absolute;
+    top: 60px;
+    left: 700px;
+    width: 750px;
+    
+}
+.d53{
+    border-spacing:70px 30px ;
+    font-size: 18px;
+    text-align: center;
+}
+th{
+    color:#1f3e72;
+}
+td{
+    color:#6C6C71;
+}
