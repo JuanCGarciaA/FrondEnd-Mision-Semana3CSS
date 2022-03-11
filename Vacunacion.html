@@ -5,120 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Campaña de vacunación</title>
-    <style> 
-        @font-face {
-            font-family: Futura;
-            src: url(./Futura.ttc);
-        }
-        .header{
-            width: 100%;
-            height: 110px;
-            background-color: rgba(255,255,255,0.8) ;
-            padding: 10px;
-            font-size: 18px;
-            color: black;
-            position: absolute;
-            top:0px;
-            left: 0px;
-        }
-        .footer {
-            background-color: #32B6B2;
-            padding: 10px;
-            width: 100%;
-            height: 110px;
-            font-size: 18px;
-            color: white;
-            position: absolute;
-            bottom: 0px;
-            left: 0px;
-        }
-        .a1{
-            display: inline-flex;
-            justify-content: left;
-            align-items: center;
-            text-align: center;
-            vertical-align: middle;
-            flex-wrap: wrap;
-            margin: auto;
-        }
-        .c1{
-            width: 38%;
-            height: 70px;
-            font: verdana;
-            color:#2747c5;
-            background-color: green;
-        }
-        .c2{
-            width: 150px;
-            height: 70px;
-            font-family: futura;
-            color:#8A8B90;
-            background-color: red;
-        }
-        .c3{
-            width: 150px;
-            height: 70px;
-            font-family: futura;
-            color:#8A8B90;
-            background-color: blue;
-        }
-        .c4{
-            width: 150px;
-            height: 70px;
-            font-family: futura;
-            color: #8A8B90;
-            background-color: purple;
-        }
-        .c5{
-            width: 150px;
-            height: 70px;
-            font: verdana;
-            font-size: 20px;
-            background-color: #2747c5;
-            color:white;
-            border-width:8px;
-            border-radius:8px;
-            border-color:black;
-        }
-        .c6{
-            width: 150px;
-            height: 70px;
-            font-family: futura;
-            color: #8A8B90;
-            background-color: blueviolet;
-        }
-        .d1{
-            float: left;
-            position: static;
-            width: 50%;
-            background-image: url("4850037.jpg");
-            background-repeat: no-repeat;
-            background-size:cover;
-            height: 800px;
-        }
-        .d2{
-            float: right;
-            position: static;
-            width: 50%;
-            background-image: url("coronavirus-vaccine-in-woman-s-arm.jpg");
-            background-repeat: no-repeat;
-            background-size:cover;
-            height: 800px;
-        }
-        .d3{
-            width: 450px;
-            height: 100px;
-            position: absolute;
-            top: 200px;
-            left: 120px;
-            background-color: #2747c5;
-        }
-        h2{
-            font: verdana;
-            font-size: 55px;
-            color: #1f3e72;
-        }
-    </style>
+    <link rel="stylesheet" href="vacunacion.css">
 </head>
 <body>
     <section class="header a1">
@@ -128,35 +15,274 @@
         <div class="c2"> 
             <p>Base  de datos</p>
         </div>
-        <div class="c3"> 
+        <div class="c2"> 
             <p>Educación</p>
         </div>
-        <div class="c4">
+        <div class="c2">
             <p>Noticias</p>
         </div>
-        <div class="c6">
+        <div class="c2">
             <p>Regulación</p>
         </div>
         <div class="c5">
             <p>Buscador</p>
         </div>
     </section>
+    
     <section>
         <div class="d1">
             <div class="d3">
                 <H2>Combate el virus con vacunas</H2>
-                
             </div>
+            <div class="d4">
+                <p>Detengamos esta pandemia matando el virus con una vacuna, no dejes que tú y tu familia se infecten.</p>
+            </div>
+            <section>
+                <img src="Best-protection2-remove.png" class="d5">
+            </section>
+            <section>
+                <div class="d6">
+                    <p>
+                        ⏳Agenda tu vacuna
+                    </p>
+                </div>
+                <div class="d7">
+                    <form action="BD-vacunacion.js">
+                        <div class="d8">
+                            <label for="ubicacion"> &#x1f30e Ubicación </label><br> 
+                            <input class="d9" type="text" id="ubicacion" name="ubicacion" placeholder="Jakarta Utara">
+                        </div>
+                        <div class="d10">
+                            <label for="fecha"> &#x1f4c5 Fecha </label><br> 
+                            <input class="d11" type="date" id="fecha" name="fecha">
+                        </div>
+                        <div class="d12">
+                            <label for="vacunas"> &#x1f489 Vacuna </label><br> 
+                            <input list="vacunas" class="d13" placeholder="Moderna">
+                            <datalist id="vacunas">
+                                <option value="AstraZeneca">
+                                <option value="SINOVAC">
+                                <option value="Pfizer">
+                                <option value="Moderna">
+                            </datalist>
+                        </div>
+                        <div>
+                            <a href="">
+                                <input class="d14" type="button" value="Registrarte" >
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </section>  
         </div>
         <div class="d2">
+        </div>
+    </section>
 
+    <section class="d15">   
+        <div>
+            <img src="Logos/logo_astra-remove.png" class="d16">
+        </div> 
+        <div>
+            <img src="Logos/Sinovac_logo.png" class="d17">
+        </div>
+        <div>
+            <img src="Logos/Pfizer-Logo.png" class="d18">
+        </div>
+        <div>
+            <img src="Logos/logomoderna-1200x913-remove.png" class="d19">
         </div>
     </section>
     
-    <br><br>
-    
-    <section>   
+    <section class="d20">
+        <div class="d21">
+            ¿Por qué debo vacunarme?
+        </div>
+        <div class="d22">
+            Para evitar cualquier duda sobre la vacunación contra el COVID-19, observe los 
+            siguientes 4 beneficios de la vacunación contra el COVID-19:
+        </div>
+        <section>
+            <div class="d23">
+                <div class="d27">
+                    📉
+                </div>
+                <p class="d28">Minimizar la propagación de virus</p>
+                <p class="d29">Se ha demostrado que la vacuna es eficaz para evitar que alguien se infecte con el coronavirus</p>
+            </div>
+            <div class="d24">
+                <div class="d27">
+                    🛡️
+                </div>
+                <p class="d28">Formación de anticuerpos</p>
+                <p class="d29">Se ha demostrado que la vacuna COVID-19 ayuda a dar forma a la respuesta de anticuerpos para el sistema inmunitario</p>
+            </div>
+            <div class="d25">
+                <div class="d27">
+                    👨‍👩‍👧‍👦
+                </div>  
+                <p class="d28">Proteger a las personas cercanas</p>
+                <p class="d29">La vacuna que recibimos también puede ayudar a proteger a las personas que nos rodean</p>
+                
+            </div>
+            <div class="d26">
+                <div class="d27">
+                    📈
+                </div>
+                <p class="d28">Crear inmunidad de grupo</p>
+                <p class="d29">La vacunación contra el COVID-19 también es beneficiosa para crear inmunidad grupal o de rebaño</p>
+            </div>
+        </section>
+    </section>
+
+    <section>
+        <div class="d31">
+        </div>
+        <div class="d30">
+            <div class="d32">
+                Preparaciones antes de la vacuna.
+            </div>
+            <div class="d33">
+                El éxito de las vacunas está fuertemente influenciado por la fortaleza del sistema inmunológico del cuerpo. Por lo 
+                tanto, hay varias cosas que se pueden intentar para que la vacuna contra el COVID-19 funcione:
+            </div>
+            <div class="d34">
+                <button class="accordion">Evite las bebidas alcohólicas.</button>
+                <div class="panel">
+                    <p>Los efectos del alcohol pueden enmascarar o potenciar los efectos secundarios de la vacuna, 
+                        por ello se recomienda no tomar en 72 horas.</p>
+                </div>
+
+                <button class="accordion">Evitar el estrés.</button>
+                <div class="panel">
+                <p>El estrés tiene un efecto profundo en el trabajo inmunológico. Además, el estrés prolongado puede
+                    aumentar la producción de cortisol y estrés oxidativo en el cuerpo..</p>
+                </div>
+
+                <button class="accordion">Comer sanamente.</button>
+                <div id="foo" class="panel">
+                    <p>Ayuda a prevenir efectos secundarios a mayor escala.</p>
+                </div>
+
+                <button class="accordion">Dormir lo suficiente.</button>
+                <div id="foo" class="panel">
+                <p>Diversos estudios apuntan que hay una mejor inmunización contra COVID-19 si se ha dormido bien por lo menos dos 
+                    noches antes de aplicarse la vacuna y dos noches después de ser vacunados</p>
+                </div>
+
+                <button class="accordion">Ejercicio o actividad física.</button>
+                <div id="foo" class="panel">
+                    <p>Estudios demuestra que las personas que hacen ejercicio después de recibir la vacuna produjeron más anticuerpos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="d35">
+            <div class="d37">
+                Contacto de emergencia.
+            </div>
+            <div class="d38">
+                Comuníquese con uno de los contactos a continuación si usted o su familia se sienten mal 
+                y tienen síntomas similares, como COVID-19, asegúrese de cuidarse también antes de informarnos:
+            </div>
+            <div class="d39">
+                <div class="d27">
+                    📞
+                </div>
+                <p class="d40">Llamar</p>
+                <p class="d41">021.1231.4514</p>
+                <a href="">
+                    <input class="d42" type="button" value="Registrarte" >
+                </a>
+            </div>
+            <div class="d43">
+                <div class="d27">
+                    💬
+                </div>
+                <p class="d40">Chat</p>
+                <p class="d41">021.1231.4514</p>
+                <a href="">
+                    <input class="d42" type="button" value="Chatear" >
+                </a>
+            </div>
+            <div class="d44">
+                <div class="d27">
+                    🎥
+                </div>
+                <p class="d46">Video llamada</p>
+                <p class="d47">021.1231.4514</p>
+                <a href="">
+                    <input class="d48" type="button" value="Video llamada" >
+                </a>
+            </div>
+            <div class="d45">
+                <div class="d27">
+                    📨
+                </div>
+                <p class="d40">Mensaje</p>
+                <p class="d41">021.1231.4514</p>
+                <a href="">
+                    <input class="d42" type="button" value="Mensaje" >
+                </a>
+            </div>
+        </div>
+
+        <div class="d36">
+            <!--Solo es imagen-->
+        </div>
+    </section>
+
+    <section>
         
     </section>
+
+    <section class="d49"> 
+        <footer>
+            <div class="d50">
+                Vacunación
+            </div>
+            <p class="d51">Nuestro objetivo es ayudar al mundo a liberarse de la pandemia en curso.</p>
+            <div class="d52">
+                <table class="d53">
+                    <tr>
+                      <th>Acerca de</th>
+                      <th>Empresa</th>
+                      <th>Soporte</th>
+                    </tr>
+                    <tr>
+                      <td>Nosotros</td>
+                      <td>¿Cómo trabajamos</td>
+                      <td>Preguntas recuentes</td>
+                    </tr>
+                    <tr>
+                        <td>Caracteristicas</td>
+                        <td>Capital</td>
+                        <td>Centro de apoyo</td>
+                      </tr>
+                      <tr>
+                        <td>Noticias</td>
+                        <td>Seguridad</td>
+                        <td>Contactanos</td>
+                      </tr>
+                  
+                </table>
+            </div>
+        </footer>
+    </section>
+    
+    <br><br><br><br>
 </body>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function(){
+            this.classList.toggle("active");
+            this.nextElementSibling.classList.toggle("show");
+        }
+    }
+</script>
 </html>
